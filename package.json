@@ -1,0 +1,29 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "reactjs from scratch",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madhuri-Nekkanti/madhu-react.git"
+  },
+  "keywords": [
+    "madhu-react",
+    "reactjs"
+  ],
+  "author": "Madhuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madhuri-Nekkanti/madhu-react/issues"
+  },
+  "homepage": "https://github.com/Madhuri-Nekkanti/madhu-react#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
