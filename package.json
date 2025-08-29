@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "reactjs from scratch",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "npx parcel index.html",
+    "build": "npx parcel index.html"
   },
   "repository": {
     "type": "git",
