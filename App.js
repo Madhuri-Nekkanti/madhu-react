@@ -1,16 +1,16 @@
 import ReactDOM from "react-dom/client";
 
-// React Element
-const heading = (
+const TitleComponent = () => (
   <h1 className='head' tabIndex='5'>
-    Namaste React using JSX
+    Title Component
   </h1>
 );
 
-// React Functional Component
+// Component Composition - Combining multiple components into a single component
 const HeadingComponent = () => (
   <div id='container'>
-    <h1 className='heading'>Namaste React Functional Component</h1>
+    <TitleComponent />
+    <h1 className='heading'> React Functional Component</h1>
   </div>
 );
 
